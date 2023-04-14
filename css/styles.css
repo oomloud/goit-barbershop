@@ -1,0 +1,51 @@
+:root {
+  /* Fonts */
+  --primary-font: 'Open Sans', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* Colors */
+  --color-main-txt: #555555;
+  --color-secondary-txt: #303030;
+  --color-accent: #FF6C00
+  --color-light: #FFFFFF;
+
+}
+
+/* Generic Styles */
+
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  line-height: 1.67em;
+  letter-spacing: 0.02em;
+  color: var(--color-main-txt);
+}
+
+.title {
+  font-family: --secondary-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17em;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: inherit;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  padding: 12px 19px;
+  background-color: var(--color-light) transparent;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+}
